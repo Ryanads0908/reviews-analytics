@@ -58,7 +58,7 @@ while True:
 	if word == 'q':
 		break
 	if word in wc:
-	print(word, '出現過的次數：', wc[word])
+		print(word, '出現過的次數：', wc[word])
 	else:
 		print('這個字沒有出現過喔！')
 
